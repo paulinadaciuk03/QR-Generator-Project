@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 30px;
 }
 
 .navbar ul {
@@ -23,7 +24,6 @@ body {
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 10px; 
 }
 
 .navbar__logo {
@@ -51,7 +51,7 @@ body {
     max-width: 500px;
     padding: 25px;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
@@ -148,6 +148,6 @@ body {
     }
     .navbar__logo {
         width: 70px; 
-        margin: 20px 0 0;
+        margin: 20px 0;
     }
 }
