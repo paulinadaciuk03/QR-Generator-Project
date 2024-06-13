@@ -23,7 +23,7 @@ body {
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 10px auto; /* Removed unnecessary bottom margin */
+    margin: 10px; 
 }
 
 .navbar__logo {
@@ -47,8 +47,8 @@ body {
 }
 
 .container {
-    width: 90%; /* Set width to a percentage */
-    max-width: 500px; /* Add a maximum width to avoid stretching on larger screens */
+    width: 90%; 
+    max-width: 500px;
     padding: 25px;
     position: absolute;
     top: 35%;
@@ -80,9 +80,9 @@ body {
 }
 
 .container button {
-    margin-top: 20px; /* Adjust margin top */
-    width: 100%; /* Make button width full */
-    max-width: 200px; /* Add a maximum width to avoid stretching on larger screens */
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 200px; 
     padding: 10px;
     border: none;
     outline: none;
@@ -136,5 +136,18 @@ body {
     }
     100%{
         transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar ul{
+        display: none; 
+    }
+    .navbar ul.navbar__logo {
+        display: block; 
+    }
+    .navbar__logo {
+        width: 70px; 
+        margin: 20px 0 0;
     }
 }
